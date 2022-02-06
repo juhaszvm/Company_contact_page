@@ -89,6 +89,7 @@ pre,table,fieldset,hr{
   font-size: 18px;
   width: 100vw;
   height: auto;
+  font-family: 'Montserrat';
 }
 
 header {
@@ -117,7 +118,7 @@ header {
      .menubar {
          position: absolute;
          right: 15.31vw;
-         top: 3.66vh;
+         top: 3.29vh;
       }
 
         .nav-button {
@@ -141,6 +142,112 @@ header {
         .nav-button+.nav-button {
             margin-left: 3.75vw;
         }
+
+.main-and-mail {
+    width: 69.37vw;
+    margin-left: 15.31vw;
+    margin-top: 4.44vh;
+    margin-bottom: 4.44vh;
+    background-color: #F4F3F5;
+}
+
+        .main {
+            width: 33.75vw;
+            height: 71.11vh;
+            float: left;
+            background-color: beige;
+            padding-left: 3.75vw;
+            padding-right: 3.75vw;
+            padding-top: 6.66vh; 
+            padding-bottom: 6.66vh;
+        }
+
+                 .map {
+                     width: 26.25vw;
+                     height: 33.88vh;
+                    }
+
+                     #gmap_canvas {
+                            width: 26.25vw;
+                            height: 33.88vh; 
+                        }
+
+                .contact-details {
+                    height: 23.33vh;
+                    width: 26.25vw;
+                    padding-top: 3.33vh;
+                }
+
+                    .uppercase-style {
+                        letter-spacing: 0.14vw;
+                        color: #6200EA;
+                        text-transform: uppercase;
+                        opacity: 1;
+                        font-family: 'Montserrat';
+                        font-weight: bold;
+                        font-size: 0.66rem;
+                        line-height: 2.283vh;
+                        margin-top: 0;
+                        margin-bottom: 1.11vh;
+                    }
+
+                        .postal-address {
+                            font-size: 0.77rem;
+                            line-height: 2.22vh;
+                            color: #211138;
+                            margin-top: 0;
+                            margin-bottom: 3.33vh;
+                            font-family: 'Montserrat';
+                        }
+
+                .i {
+                    font-size: 40px;
+                    color: #6200EA;
+                }
+
+
+
+
+        .direct-mail {
+            width: 33.75vw;
+            height: 71.11vh;
+            float: right;
+            background-color: fuchsia;
+        }
+            
+
+.footer {
+    background-color: #211138;
+    height: 11.11vh;
+    width: 100%;
+    margin-top: 0;
+    letter-spacing: 0.14vw;
+	color: #B2ACBA;
+	text-transform: uppercase;
+	font-family: 'Montserrat';
+	font-weight: bold;
+	font-size: 0.66rem;
+	line-height: 2.283vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.brandname, .studentname {
+    color: #6200EA;
+    white-space: pre;
+}
+
+
+
+
+
+
+
+
+
 
     
 
