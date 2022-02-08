@@ -269,15 +269,40 @@ header {
                     padding-top: 1.77vh;
                 }
 
-.name-of-contact > p, .email-of-contact > p, .message-of-contact> p {
-    font-size: 0.77rem;
-    line-height: 2vh;
-    color: #211138;
-    font-family: 'Montserrat';
-	font-weight: bold;
-    opacity: 0.25;
-    
-}
+                    .name-of-contact > p, .email-of-contact > p, .message-of-contact> p {
+                        font-size: 0.77rem;
+                        line-height: 2vh;
+                        color: #211138;
+                        font-family: 'Montserrat';
+                        font-weight: bold;
+                        opacity: 0.25;
+                    }
+
+                .submit-button {
+                   width: 26.25vw;
+                   height: 5.55vh;
+                   background: #6200EA 0% 0% no-repeat padding-box;
+                   border: 2px solid #6200EA;
+                   border-radius: 24px;
+                  opacity: 1;
+                   margin-top: 2.22vh;
+                }
+
+                    .submit {
+                        text-decoration: none;
+                        text-align: center;
+                        font-family: 'Montserrat';
+                        font-weight: bold;
+                        letter-spacing: 0.14vw;
+                        font-size: 0.66rem;
+                        line-height: 2.283vh;
+                        color: #FFFFFF;
+                        text-transform: uppercase;
+                        opacity: 1;
+                        padding: 1.5vh 0;
+                        display: block;
+                    }
+
 
 .footer {
     background-color: #211138;
