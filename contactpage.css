@@ -85,12 +85,13 @@ pre,table,fieldset,hr{
 /**COMPONENTS
 */
 
+
 .body {
   font-size: 18px;
   width: 100vw;
   height: auto;
-  font-family: 'Montserrat';
 }
+
 
 header {
 	position: relative;
@@ -144,18 +145,21 @@ header {
         }
 
 .main-and-mail {
-    width: 69.37vw;
-    margin-left: 15.31vw;
-    margin-top: 4.44vh;
-    margin-bottom: 4.44vh;
-    background-color: #F4F3F5;
+    width: 100vw;
+    height: 80.01vh;
+    background: #F4F3F5;
+    padding-left: 15.31vw;
+    padding-right: 15.31vw;
+    padding-top: 4.44vh;
+    padding-bottom: 4.44vh;
 }
+
 
         .main {
             width: 33.75vw;
             height: 71.11vh;
             float: left;
-            background-color: beige;
+            background-color: white;
             padding-left: 3.75vw;
             padding-right: 3.75vw;
             padding-top: 6.66vh; 
@@ -200,11 +204,13 @@ header {
                             font-family: 'Montserrat';
                         }
 
-                .i {
-                    font-size: 40px;
-                    color: #6200EA;
-                }
 
+                                i {
+                                    font-size: 18px;
+                                    color: #6200EA;
+                                    font-family:  “Font Awesome 5 Brands”;
+                                    line-height: 18px;
+                                }
 
 
 
@@ -212,9 +218,66 @@ header {
             width: 33.75vw;
             height: 71.11vh;
             float: right;
-            background-color: fuchsia;
+            background-color: #FFFFFF;
+            padding-left: 3.75vw;
+            padding-right: 3.75vw;
+            padding-top: 6.66vh; 
+            padding-bottom: 6.66vh;
         }
-            
+
+            .direct-mail > h2 {
+                font-size: 2.22rem;
+                line-height: 5.55vh;
+                font-family: 'Montserrat';
+                color: #211138; 
+                font-weight: bold;
+                text-align: left;
+                margin-bottom: 1.11vh;
+                margin-top: 0;
+            }
+
+            .direct-mail > p {
+                font-size: 0.9rem;
+                line-height: 3.33vh;
+                font-family: 'Montserrat';
+                color: #211138;
+                padding-top: 0;
+                text-align: left;
+                margin-bottom: 2.22vh;
+            }
+
+                .name-of-contact {
+                    height: 5.55vh;
+                    background-color: #F4F3F5;
+                    margin-bottom: 1.66vh;
+                    padding-left: 1.5vw;
+                    padding-top: 1.77vh;
+                }
+       
+                .email-of-contact {
+                    height: 5.55vh;
+                    background-color: #F4F3F5;
+                    margin-bottom: 1.66vh;
+                    padding-left: 1.5vw;
+                    padding-top: 1.77vh;
+                }
+
+                .message-of-contact {
+                    height: 16.66vh;
+                    background-color: #F4F3F5;
+                    padding-left: 1.5vw;
+                    padding-top: 1.77vh;
+                }
+
+.name-of-contact > p, .email-of-contact > p, .message-of-contact> p {
+    font-size: 0.77rem;
+    line-height: 2vh;
+    color: #211138;
+    font-family: 'Montserrat';
+	font-weight: bold;
+    opacity: 0.25;
+    
+}
 
 .footer {
     background-color: #211138;
